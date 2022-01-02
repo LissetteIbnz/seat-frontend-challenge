@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "title": "Mr",
+      "firstName": "John",
+      "lastName": "Leanne Graham",
+      "tags": ["tag1", "tag2", "tag3"],
+      "email": "irrelevant-email-1@email.com"
+    }
+  ]
+}
