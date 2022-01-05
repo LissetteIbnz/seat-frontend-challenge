@@ -1,60 +1,40 @@
 {
   "users": [
     {
-      "id": 1,
-      "firstName": "Rudolph",
-      "lastName": "Whapples",
-      "email": "rwhapples0@vk.com",
-      "title": "Honorable"
-    },
-    {
-      "id": 2,
-      "firstName": "Hobart",
-      "lastName": "Pursglove",
-      "email": "hpursglove1@prnewswire.com",
-      "title": "Dr"
-    },
-    {
       "id": 3,
-      "firstName": "Kerstin",
-      "lastName": "Alexsandrowicz",
-      "email": "kalexsandrowicz2@seattletimes.com",
-      "title": "Mrs"
+      "first_name": "Kerstin",
+      "last_name": "Alexsandrowicz",
+      "email": "kalexsandrowicz2@seattletimes.com"
     },
     {
       "id": 4,
-      "firstName": "Faith",
-      "lastName": "Auchterlony",
-      "email": "fauchterlony3@taobao.com",
-      "title": "Dr"
+      "first_name": "Faith",
+      "last_name": "Auchterlony",
+      "email": "fauchterlony3@taobao.com"
     },
     {
       "id": 5,
-      "firstName": "Marrilee",
-      "lastName": "Toderini",
-      "email": "mtoderini4@barnesandnoble.com",
-      "title": "Mrs"
+      "first_name": "Marrilee",
+      "last_name": "Toderini",
+      "email": "mtoderini4@barnesandnoble.com"
     },
     {
       "id": 6,
-      "firstName": "Kaia",
-      "lastName": "Tappington",
-      "email": "ktappington5@fda.gov",
-      "title": "Mr"
+      "first_name": "Kaia",
+      "last_name": "Tappington",
+      "email": "ktappington5@fda.gov"
     },
     {
       "id": 7,
-      "firstName": "Joy",
-      "lastName": "Stabler",
-      "email": "jstabler6@icq.com",
-      "title": "Honorable"
+      "first_name": "Hyacinthia",
+      "last_name": "Saffin",
+      "email": "hsaffin7@wp.com"
     },
     {
       "id": 8,
-      "firstName": "Hyacinthia",
-      "lastName": "Saffin",
-      "email": "hsaffin7@wp.com",
-      "title": "Dr"
+      "first_name": "Laura",
+      "last_name": "Fernández",
+      "email": "laurafer@email.com"
     }
   ]
 }
