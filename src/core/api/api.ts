@@ -6,7 +6,7 @@ const get = async <T>(url: string): Promise<T> => {
   return await response.json();
 };
 
-const post = async (url: string, body: RequestInit["body"]) => {
+const post = async (url: string, body: unknown) => {
   const requestOptions: RequestInit = {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -16,7 +16,7 @@ const post = async (url: string, body: RequestInit["body"]) => {
   return response.json();
 };
 
-const put = async (url: string, body: RequestInit["body"]) => {
+const put = async (url: string, body: unknown) => {
   const requestOptions: RequestInit = {
     method: "PUT",
     headers: { "Content-Type": "application/json" },

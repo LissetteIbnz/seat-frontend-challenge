@@ -1,7 +1,13 @@
-import { UsersContainer } from "pages/users";
+import { AppLayout } from "core/layouts";
+import { RouterComponent } from "core/router";
+import { ThemeProvider } from "core/theme";
 
-function App() {
-  return <UsersContainer />;
-}
-
-export default App;
+export const App = () => {
+  return (
+    <ThemeProvider>
+      <AppLayout>
+        <RouterComponent />
+      </AppLayout>
+    </ThemeProvider>
+  );
+};
