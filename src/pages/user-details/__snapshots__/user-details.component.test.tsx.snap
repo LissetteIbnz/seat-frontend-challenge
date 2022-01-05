@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/user-details/UserDetailsComponent should render correctly 1`] = `
+<div>
+  <form
+    class="css-4euc2w"
+  >
+    <div
+      class="chakra-form-control css-rj5r62"
+      role="group"
+    >
+      <label
+        class="chakra-form__label css-2gx1h6"
+        for="firstName"
+        id="field-1-label"
+      >
+        First name
+      </label>
+      <input
+        class="chakra-input css-1c6j008"
+        id="firstName"
+        value=""
+      />
+    </div>
+    <div
+      class="chakra-form-control css-rj5r62"
+      role="group"
+    >
+      <label
+        class="chakra-form__label css-2gx1h6"
+        for="lastName"
+        id="field-2-label"
+      >
+        Last name
+      </label>
+      <input
+        class="chakra-input css-1c6j008"
+        id="lastName"
+        value=""
+      />
+    </div>
+    <div
+      class="chakra-form-control css-rj5r62"
+      role="group"
+    >
+      <label
+        class="chakra-form__label css-2gx1h6"
+        for="email"
+        id="field-3-label"
+      >
+        Email
+      </label>
+      <input
+        class="chakra-input css-1c6j008"
+        id="email"
+        value=""
+      />
+    </div>
+    <div
+      class="css-n3wvi9"
+    >
+      <button
+        class="chakra-button css-2rnqoq"
+        type="button"
+      >
+        Cancel
+      </button>
+      <button
+        class="chakra-button css-f6n2t5"
+        type="submit"
+      >
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
+`;
