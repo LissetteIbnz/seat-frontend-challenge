@@ -63,9 +63,6 @@
     "transformIgnorePatterns": [
       "node_modules/?!(ignore-me|ignore-me-too)"
     ],
-    "moduleNameMapper": {
-      "^test-utils$": "<rootDir>/src/test-utils.tsx"
-    },
     "collectCoverageFrom": [
       "src/**/{!({*.{scene,stories},index,reportWebVitals,test-utils}),}.{js,jsx,ts,tsx}"
     ]

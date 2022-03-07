@@ -22,10 +22,6 @@ You can see more info in the [official documentation](https://create-react-app.d
 To run this project, you will need to add the following environment variables to your .env file:
 
 ```
-# Platform configuration
-EXTEND_ESLINT=true
-FAST_REFRESH=true
-
 # API URLs
 REACT_APP_API_URL=http://localhost:3001
 ```

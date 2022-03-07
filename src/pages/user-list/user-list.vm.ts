@@ -13,7 +13,7 @@ type KeysUser = keyof User;
 
 export const FILTERS: KeysUser[] = ["fullName"];
 
-export const HEADERS: Column[] = [
+export const HEADERS = [
   {
     Header: "Id",
     accessor: "id",
@@ -31,4 +31,4 @@ export const HEADERS: Column[] = [
     accessor: "actions",
     disableSortBy: true,
   },
-];
+] as Column<User>[];

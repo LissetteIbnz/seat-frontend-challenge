@@ -1,8 +1,8 @@
 import * as React from "react";
-import { UserRowComponent } from "./components";
-import { FILTERS, HEADERS, User } from "./user-list.vm";
 import { useSearchBar } from "common/components";
 import { RowRendererProps, TableContainer } from "common/components/table";
+import { UserRowComponent } from "./components";
+import { FILTERS, HEADERS, User } from "./user-list.vm";
 
 interface Props {
   onCreate: VoidFunction;

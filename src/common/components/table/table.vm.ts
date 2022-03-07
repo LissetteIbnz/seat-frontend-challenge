@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import { Lookup } from "common/models";
 
 export interface RowRendererProps<T extends Record<keyof T, unknown>> {

@@ -8,7 +8,7 @@ import { TableComponent } from "./table.component";
 const HOOKS = [useSortBy, usePagination];
 
 interface Props<Model extends Record<keyof Model, unknown>> {
-  columns: Column[];
+  columns: Column<Model>[];
   enablePagination?: boolean;
   enableSearch?: boolean;
   labels?: LabelProps;
@@ -30,7 +30,7 @@ export const TableContainer = <T extends Record<keyof T, unknown>>(
 
   const labels = { ...createEmptyLabelProps(), ...props.labels };
 
-  const columns = React.useMemo<any[]>(() => props.columns, [props.columns]);
+  const columns = React.useMemo(() => props.columns, [props.columns]);
 
   const data = React.useMemo(() => props.rows, [props.rows]);
 
@@ -39,7 +39,7 @@ export const TableContainer = <T extends Record<keyof T, unknown>>(
       {
         columns,
         data,
-        initialState: { pageSize: props.pageSize } as any,
+        initialState: { pageSize: props.pageSize },
       },
       ...HOOKS,
     );

@@ -6,7 +6,9 @@ type Props = React.ComponentProps<typeof UserRowComponent>;
 const renderWithTable = (props: Props) => {
   return render(
     <table>
-      <UserRowComponent {...props} />
+      <tbody>
+        <UserRowComponent {...props} />
+      </tbody>
     </table>,
   );
 };

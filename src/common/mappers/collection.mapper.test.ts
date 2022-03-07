@@ -2,10 +2,10 @@ import { mapToCollection } from "./collection.mapper";
 
 describe("common/mappers", () => {
   describe("mapToCollection", () => {
-    const testCases: any[][] = [null, undefined, []];
+    const testCases = [null, undefined, []];
     it.each(testCases)("should return an empty array when passes %p", (testValue) => {
-      const mapItemFn = (item: any) => item;
-      const result = mapToCollection(testValue as any, mapItemFn);
+      const mapItemFn = (item: unknown) => item;
+      const result = mapToCollection(testValue, mapItemFn);
       expect(result).toEqual([]);
     });
 
